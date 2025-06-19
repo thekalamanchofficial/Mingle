@@ -1,2 +1,1 @@
-# Mingle
-An AI agent who is your friend
+// Placeholder for README.md
