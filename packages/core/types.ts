@@ -1,1 +1,0 @@
-// Placeholder for packages/core/types.ts
