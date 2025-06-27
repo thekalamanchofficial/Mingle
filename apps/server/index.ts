@@ -1,16 +1,9 @@
 import express from "express";
 import cors from "cors";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
-import { createTRPCContext, router } from "./trpc";
-import { helloRouter } from "./routers/hello";
+import { createTRPCContext } from "./trpc";
+import { appRouter } from "./router";
 
-export const appRouter = router({
-  helloRouter,
-});
-
-export type AppRouter = typeof appRouter;
-
-// ✅ Setup Express
 const app = express();
 app.use(cors());
 app.use(
