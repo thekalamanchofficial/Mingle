@@ -13,11 +13,13 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.4",
+    "metro": "^0.82.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@trpc/client": "^11.4.2",
+    "@trpc/react-query": "^11.4.3",
     "@trpc/server": "^11.4.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",

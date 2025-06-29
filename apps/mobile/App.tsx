@@ -2,6 +2,7 @@ import React from "react";
 import { ApplicationProvider, Layout, Text } from "@ui-kitten/components";
 import * as eva from "@eva-design/eva";
 import { trpc, TRPCProvider } from "../server/client";
+import { Login } from "./screens/Login";
 
 export default function App() {
   return (
@@ -18,11 +19,12 @@ function Home() {
 
   return (
     <Layout style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      {hello.isLoading ? (
+      {/* {hello.isLoading ? (
         <Text>Loading...</Text>
       ) : (
         <Text>{hello.data?.greeting}</Text>
-      )}
+      )} */}
+      <Login />
     </Layout>
   );
 }
